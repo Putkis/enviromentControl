@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4132E2911C19667300C8418D /* CellButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4132E2901C19667300C8418D /* CellButton.m */; };
+		4132E2931C196D4A00C8418D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4132E2921C196D4A00C8418D /* Main.storyboard */; };
+		4134FAE21C1817CA0096C87E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4134FAE11C1817CA0096C87E /* main.m */; };
+		4134FAED1C1817CA0096C87E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4134FAEC1C1817CA0096C87E /* Assets.xcassets */; };
+		4134FAF01C1817CA0096C87E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4134FAEE1C1817CA0096C87E /* LaunchScreen.storyboard */; };
+		4134FAFB1C1819270096C87E /* HomeScreenController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4134FAFA1C1819270096C87E /* HomeScreenController.m */; };
+		4134FB051C181B310096C87E /* aanipienemmalle1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4134FAFC1C181B310096C87E /* aanipienemmalle1.png */; };
+		4134FB061C181B310096C87E /* radio_1_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4134FAFD1C181B310096C87E /* radio_1_1.png */; };
+		4134FB071C181B310096C87E /* radio_2_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4134FAFE1C181B310096C87E /* radio_2_1.png */; };
+		4134FB081C181B310096C87E /* radio_cd_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4134FAFF1C181B310096C87E /* radio_cd_1.png */; };
+		4134FB091C181B310096C87E /* radio_play_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4134FB001C181B310096C87E /* radio_play_1.png */; };
+		4134FB0A1C181B310096C87E /* radio_radio_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4134FB011C181B310096C87E /* radio_radio_1.png */; };
+		4134FB0B1C181B310096C87E /* radio_stop_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4134FB021C181B310096C87E /* radio_stop_1.png */; };
+		4134FB0C1C181B310096C87E /* sanky_saleet_alas1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4134FB031C181B310096C87E /* sanky_saleet_alas1.png */; };
+		4134FB0D1C181B310096C87E /* sanky_saleet_ylos1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4134FB041C181B310096C87E /* sanky_saleet_ylos1.png */; };
+		4134FB1B1C181B440096C87E /* apu.png in Resources */ = {isa = PBXBuildFile; fileRef = 4134FB0E1C181B440096C87E /* apu.png */; };
+		4134FB1C1C181B440096C87E /* hoitaja.png in Resources */ = {isa = PBXBuildFile; fileRef = 4134FB0F1C181B440096C87E /* hoitaja.png */; };
+		4134FB1D1C181B440096C87E /* jumissa.png in Resources */ = {isa = PBXBuildFile; fileRef = 4134FB101C181B440096C87E /* jumissa.png */; };
+		4134FB1E1C181B440096C87E /* koulu1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4134FB111C181B440096C87E /* koulu1.png */; };
+		4134FB1F1C181B440096C87E /* lamppu1_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4134FB121C181B440096C87E /* lamppu1_1.png */; };
+		4134FB201C181B440096C87E /* lamppu3_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4134FB131C181B440096C87E /* lamppu3_1.png */; };
+		4134FB211C181B440096C87E /* lamppu5_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4134FB141C181B440096C87E /* lamppu5_1.png */; };
+		4134FB221C181B440096C87E /* ovi1_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4134FB151C181B440096C87E /* ovi1_1.png */; };
+		4134FB231C181B440096C87E /* radio.png in Resources */ = {isa = PBXBuildFile; fileRef = 4134FB161C181B440096C87E /* radio.png */; };
+		4134FB241C181B440096C87E /* saleet2_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4134FB171C181B440096C87E /* saleet2_1.png */; };
+		4134FB251C181B440096C87E /* sanky.png in Resources */ = {isa = PBXBuildFile; fileRef = 4134FB181C181B440096C87E /* sanky.png */; };
+		4134FB261C181B440096C87E /* sydan.png in Resources */ = {isa = PBXBuildFile; fileRef = 4134FB191C181B440096C87E /* sydan.png */; };
+		4134FB271C181B440096C87E /* tv.png in Resources */ = {isa = PBXBuildFile; fileRef = 4134FB1A1C181B440096C87E /* tv.png */; };
+		4134FB2A1C181B570096C87E /* sovellukset.png in Resources */ = {isa = PBXBuildFile; fileRef = 4134FB281C181B570096C87E /* sovellukset.png */; };
+		4134FB2B1C181B570096C87E /* asetukset.png in Resources */ = {isa = PBXBuildFile; fileRef = 4134FB291C181B570096C87E /* asetukset.png */; };
+		4134FB2E1C181B8C0096C87E /* SetupController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4134FB2D1C181B8C0096C87E /* SetupController.m */; };
+		4134FB311C181BD10096C87E /* SharedVariables.m in Sources */ = {isa = PBXBuildFile; fileRef = 4134FB301C181BD10096C87E /* SharedVariables.m */; };
+		4134FB341C181C100096C87E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4134FB331C181C100096C87E /* AppDelegate.m */; };
+		4134FB371C181C2D0096C87E /* AlertConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 4134FB361C181C2D0096C87E /* AlertConfig.m */; };
+		4134FB3A1C181C440096C87E /* AlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4134FB391C181C440096C87E /* AlertController.m */; };
+		4134FB3F1C181C7B0096C87E /* ControlButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4134FB3C1C181C7B0096C87E /* ControlButton.m */; };
+		4134FB431C181CA10096C87E /* ControlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4134FB421C181CA10096C87E /* ControlViewController.m */; };
+		4134FB461C181D3F0096C87E /* InternetController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4134FB451C181D3F0096C87E /* InternetController.m */; };
+		416C90161C2011DE00290E66 /* add.png in Resources */ = {isa = PBXBuildFile; fileRef = 416C90151C2011DE00290E66 /* add.png */; };
+		416C90181C2012BF00290E66 /* power.png in Resources */ = {isa = PBXBuildFile; fileRef = 416C90171C2012BF00290E66 /* power.png */; };
+		416C901A1C20135500290E66 /* sound53.png in Resources */ = {isa = PBXBuildFile; fileRef = 416C90191C20135500290E66 /* sound53.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4132E28F1C19667300C8418D /* CellButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellButton.h; sourceTree = "<group>"; };
+		4132E2901C19667300C8418D /* CellButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellButton.m; sourceTree = "<group>"; };
+		4132E2921C196D4A00C8418D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		4134FADD1C1817CA0096C87E /* TervaVayla.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TervaVayla.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4134FAE11C1817CA0096C87E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4134FAEC1C1817CA0096C87E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4134FAEF1C1817CA0096C87E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4134FAF11C1817CA0096C87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4134FAF91C1819270096C87E /* HomeScreenController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeScreenController.h; path = ../../tervavayla_Project/HomeScreenController.h; sourceTree = "<group>"; };
+		4134FAFA1C1819270096C87E /* HomeScreenController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeScreenController.m; path = ../../tervavayla_Project/HomeScreenController.m; sourceTree = "<group>"; };
+		4134FAFC1C181B310096C87E /* aanipienemmalle1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = aanipienemmalle1.png; path = "../../../Downloads/documents-export-2015-12-06/aanipienemmalle1.png"; sourceTree = "<group>"; };
+		4134FAFD1C181B310096C87E /* radio_1_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = radio_1_1.png; path = "../../../Downloads/documents-export-2015-12-06/radio_1_1.png"; sourceTree = "<group>"; };
+		4134FAFE1C181B310096C87E /* radio_2_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = radio_2_1.png; path = "../../../Downloads/documents-export-2015-12-06/radio_2_1.png"; sourceTree = "<group>"; };
+		4134FAFF1C181B310096C87E /* radio_cd_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = radio_cd_1.png; path = "../../../Downloads/documents-export-2015-12-06/radio_cd_1.png"; sourceTree = "<group>"; };
+		4134FB001C181B310096C87E /* radio_play_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = radio_play_1.png; path = "../../../Downloads/documents-export-2015-12-06/radio_play_1.png"; sourceTree = "<group>"; };
+		4134FB011C181B310096C87E /* radio_radio_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = radio_radio_1.png; path = "../../../Downloads/documents-export-2015-12-06/radio_radio_1.png"; sourceTree = "<group>"; };
+		4134FB021C181B310096C87E /* radio_stop_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = radio_stop_1.png; path = "../../../Downloads/documents-export-2015-12-06/radio_stop_1.png"; sourceTree = "<group>"; };
+		4134FB031C181B310096C87E /* sanky_saleet_alas1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sanky_saleet_alas1.png; path = "../../../Downloads/documents-export-2015-12-06/sanky_saleet_alas1.png"; sourceTree = "<group>"; };
+		4134FB041C181B310096C87E /* sanky_saleet_ylos1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sanky_saleet_ylos1.png; path = "../../../Downloads/documents-export-2015-12-06/sanky_saleet_ylos1.png"; sourceTree = "<group>"; };
+		4134FB0E1C181B440096C87E /* apu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = apu.png; path = "../../../Downloads/documents-export-2015-12-02/apu.png"; sourceTree = "<group>"; };
+		4134FB0F1C181B440096C87E /* hoitaja.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hoitaja.png; path = "../../../Downloads/documents-export-2015-12-02/hoitaja.png"; sourceTree = "<group>"; };
+		4134FB101C181B440096C87E /* jumissa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = jumissa.png; path = "../../../Downloads/documents-export-2015-12-02/jumissa.png"; sourceTree = "<group>"; };
+		4134FB111C181B440096C87E /* koulu1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = koulu1.png; path = "../../../Downloads/documents-export-2015-12-02/koulu1.png"; sourceTree = "<group>"; };
+		4134FB121C181B440096C87E /* lamppu1_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = lamppu1_1.png; path = "../../../Downloads/documents-export-2015-12-02/lamppu1_1.png"; sourceTree = "<group>"; };
+		4134FB131C181B440096C87E /* lamppu3_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = lamppu3_1.png; path = "../../../Downloads/documents-export-2015-12-02/lamppu3_1.png"; sourceTree = "<group>"; };
+		4134FB141C181B440096C87E /* lamppu5_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = lamppu5_1.png; path = "../../../Downloads/documents-export-2015-12-02/lamppu5_1.png"; sourceTree = "<group>"; };
+		4134FB151C181B440096C87E /* ovi1_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ovi1_1.png; path = "../../../Downloads/documents-export-2015-12-02/ovi1_1.png"; sourceTree = "<group>"; };
+		4134FB161C181B440096C87E /* radio.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = radio.png; path = "../../../Downloads/documents-export-2015-12-02/radio.png"; sourceTree = "<group>"; };
+		4134FB171C181B440096C87E /* saleet2_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = saleet2_1.png; path = "../../../Downloads/documents-export-2015-12-02/saleet2_1.png"; sourceTree = "<group>"; };
+		4134FB181C181B440096C87E /* sanky.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sanky.png; path = "../../../Downloads/documents-export-2015-12-02/sanky.png"; sourceTree = "<group>"; };
+		4134FB191C181B440096C87E /* sydan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sydan.png; path = "../../../Downloads/documents-export-2015-12-02/sydan.png"; sourceTree = "<group>"; };
+		4134FB1A1C181B440096C87E /* tv.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tv.png; path = "../../../Downloads/documents-export-2015-12-02/tv.png"; sourceTree = "<group>"; };
+		4134FB281C181B570096C87E /* sovellukset.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sovellukset.png; path = ../../../Downloads/sovellukset.png; sourceTree = "<group>"; };
+		4134FB291C181B570096C87E /* asetukset.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = asetukset.png; path = ../../../Downloads/asetukset.png; sourceTree = "<group>"; };
+		4134FB2C1C181B8C0096C87E /* SetupController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SetupController.h; path = ../../tervavayla_Project/SetupController.h; sourceTree = "<group>"; };
+		4134FB2D1C181B8C0096C87E /* SetupController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SetupController.m; path = ../../tervavayla_Project/SetupController.m; sourceTree = "<group>"; };
+		4134FB2F1C181BD10096C87E /* SharedVariables.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SharedVariables.h; path = ../../tervavayla_Project/SharedVariables.h; sourceTree = "<group>"; };
+		4134FB301C181BD10096C87E /* SharedVariables.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SharedVariables.m; path = ../../tervavayla_Project/SharedVariables.m; sourceTree = "<group>"; };
+		4134FB321C181C100096C87E /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../../tervavayla_Project/AppDelegate.h; sourceTree = "<group>"; };
+		4134FB331C181C100096C87E /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../../tervavayla_Project/AppDelegate.m; sourceTree = "<group>"; };
+		4134FB351C181C2D0096C87E /* AlertConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AlertConfig.h; path = ../../tervavayla_Project/AlertConfig.h; sourceTree = "<group>"; };
+		4134FB361C181C2D0096C87E /* AlertConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AlertConfig.m; path = ../../tervavayla_Project/AlertConfig.m; sourceTree = "<group>"; };
+		4134FB381C181C440096C87E /* AlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AlertController.h; path = ../../tervavayla_Project/AlertController.h; sourceTree = "<group>"; };
+		4134FB391C181C440096C87E /* AlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AlertController.m; path = ../../tervavayla_Project/AlertController.m; sourceTree = "<group>"; };
+		4134FB3B1C181C7B0096C87E /* ControlButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ControlButton.h; path = ../../tervavayla_Project/ControlButton.h; sourceTree = "<group>"; };
+		4134FB3C1C181C7B0096C87E /* ControlButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ControlButton.m; path = ../../tervavayla_Project/ControlButton.m; sourceTree = "<group>"; };
+		4134FB411C181CA10096C87E /* ControlViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ControlViewController.h; path = ../../tervavayla_Project/ControlViewController.h; sourceTree = "<group>"; };
+		4134FB421C181CA10096C87E /* ControlViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ControlViewController.m; path = ../../tervavayla_Project/ControlViewController.m; sourceTree = "<group>"; };
+		4134FB441C181D3F0096C87E /* InternetController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InternetController.h; path = ../../tervavayla_Project/InternetController.h; sourceTree = "<group>"; };
+		4134FB451C181D3F0096C87E /* InternetController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InternetController.m; path = ../../tervavayla_Project/InternetController.m; sourceTree = "<group>"; };
+		416C90151C2011DE00290E66 /* add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = add.png; path = ../../../Downloads/add.png; sourceTree = "<group>"; };
+		416C90171C2012BF00290E66 /* power.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = power.png; path = ../../../Downloads/power.png; sourceTree = "<group>"; };
+		416C90191C20135500290E66 /* sound53.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sound53.png; path = ../../../Downloads/sound53.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4134FADA1C1817CA0096C87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4134FAD41C1817CA0096C87E = {
+			isa = PBXGroup;
+			children = (
+				4134FADF1C1817CA0096C87E /* TervaVayla */,
+				4134FADE1C1817CA0096C87E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4134FADE1C1817CA0096C87E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4134FADD1C1817CA0096C87E /* TervaVayla.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4134FADF1C1817CA0096C87E /* TervaVayla */ = {
+			isa = PBXGroup;
+			children = (
+				4134FB351C181C2D0096C87E /* AlertConfig.h */,
+				4134FB361C181C2D0096C87E /* AlertConfig.m */,
+				4134FB381C181C440096C87E /* AlertController.h */,
+				4134FB391C181C440096C87E /* AlertController.m */,
+				4134FB321C181C100096C87E /* AppDelegate.h */,
+				4134FB331C181C100096C87E /* AppDelegate.m */,
+				4132E28F1C19667300C8418D /* CellButton.h */,
+				4132E2901C19667300C8418D /* CellButton.m */,
+				4134FB3B1C181C7B0096C87E /* ControlButton.h */,
+				4134FB3C1C181C7B0096C87E /* ControlButton.m */,
+				4134FB411C181CA10096C87E /* ControlViewController.h */,
+				4134FB421C181CA10096C87E /* ControlViewController.m */,
+				4134FB2C1C181B8C0096C87E /* SetupController.h */,
+				4134FB2D1C181B8C0096C87E /* SetupController.m */,
+				4134FB441C181D3F0096C87E /* InternetController.h */,
+				4134FB451C181D3F0096C87E /* InternetController.m */,
+				4134FB2F1C181BD10096C87E /* SharedVariables.h */,
+				4134FB301C181BD10096C87E /* SharedVariables.m */,
+				4134FAF91C1819270096C87E /* HomeScreenController.h */,
+				4134FAFA1C1819270096C87E /* HomeScreenController.m */,
+				4134FAEC1C1817CA0096C87E /* Assets.xcassets */,
+				4134FAEE1C1817CA0096C87E /* LaunchScreen.storyboard */,
+				4132E2921C196D4A00C8418D /* Main.storyboard */,
+				4134FAF11C1817CA0096C87E /* Info.plist */,
+				4134FAFC1C181B310096C87E /* aanipienemmalle1.png */,
+				4134FAFD1C181B310096C87E /* radio_1_1.png */,
+				4134FAFE1C181B310096C87E /* radio_2_1.png */,
+				4134FAFF1C181B310096C87E /* radio_cd_1.png */,
+				4134FB001C181B310096C87E /* radio_play_1.png */,
+				416C90151C2011DE00290E66 /* add.png */,
+				4134FB0E1C181B440096C87E /* apu.png */,
+				4134FB0F1C181B440096C87E /* hoitaja.png */,
+				416C90171C2012BF00290E66 /* power.png */,
+				4134FB101C181B440096C87E /* jumissa.png */,
+				4134FB111C181B440096C87E /* koulu1.png */,
+				416C90191C20135500290E66 /* sound53.png */,
+				4134FB121C181B440096C87E /* lamppu1_1.png */,
+				4134FB281C181B570096C87E /* sovellukset.png */,
+				4134FB291C181B570096C87E /* asetukset.png */,
+				4134FB131C181B440096C87E /* lamppu3_1.png */,
+				4134FB141C181B440096C87E /* lamppu5_1.png */,
+				4134FB151C181B440096C87E /* ovi1_1.png */,
+				4134FB161C181B440096C87E /* radio.png */,
+				4134FB171C181B440096C87E /* saleet2_1.png */,
+				4134FB181C181B440096C87E /* sanky.png */,
+				4134FB191C181B440096C87E /* sydan.png */,
+				4134FB1A1C181B440096C87E /* tv.png */,
+				4134FB011C181B310096C87E /* radio_radio_1.png */,
+				4134FB021C181B310096C87E /* radio_stop_1.png */,
+				4134FB031C181B310096C87E /* sanky_saleet_alas1.png */,
+				4134FB041C181B310096C87E /* sanky_saleet_ylos1.png */,
+				4134FAE01C1817CA0096C87E /* Supporting Files */,
+			);
+			path = TervaVayla;
+			sourceTree = "<group>";
+		};
+		4134FAE01C1817CA0096C87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4134FAE11C1817CA0096C87E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4134FADC1C1817CA0096C87E /* TervaVayla */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4134FAF41C1817CA0096C87E /* Build configuration list for PBXNativeTarget "TervaVayla" */;
+			buildPhases = (
+				4134FAD91C1817CA0096C87E /* Sources */,
+				4134FADA1C1817CA0096C87E /* Frameworks */,
+				4134FADB1C1817CA0096C87E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TervaVayla;
+			productName = TervaVayla;
+			productReference = 4134FADD1C1817CA0096C87E /* TervaVayla.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4134FAD51C1817CA0096C87E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Projekti;
+				TargetAttributes = {
+					4134FADC1C1817CA0096C87E = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = B626N2LH99;
+					};
+				};
+			};
+			buildConfigurationList = 4134FAD81C1817CA0096C87E /* Build configuration list for PBXProject "TervaVayla" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4134FAD41C1817CA0096C87E;
+			productRefGroup = 4134FADE1C1817CA0096C87E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4134FADC1C1817CA0096C87E /* TervaVayla */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4134FADB1C1817CA0096C87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4134FAF01C1817CA0096C87E /* LaunchScreen.storyboard in Resources */,
+				4134FB0C1C181B310096C87E /* sanky_saleet_alas1.png in Resources */,
+				4134FB241C181B440096C87E /* saleet2_1.png in Resources */,
+				4134FB201C181B440096C87E /* lamppu3_1.png in Resources */,
+				4134FB251C181B440096C87E /* sanky.png in Resources */,
+				4134FB2A1C181B570096C87E /* sovellukset.png in Resources */,
+				4132E2931C196D4A00C8418D /* Main.storyboard in Resources */,
+				416C90161C2011DE00290E66 /* add.png in Resources */,
+				4134FB2B1C181B570096C87E /* asetukset.png in Resources */,
+				4134FB0B1C181B310096C87E /* radio_stop_1.png in Resources */,
+				4134FB0A1C181B310096C87E /* radio_radio_1.png in Resources */,
+				4134FB1F1C181B440096C87E /* lamppu1_1.png in Resources */,
+				4134FB1B1C181B440096C87E /* apu.png in Resources */,
+				4134FB061C181B310096C87E /* radio_1_1.png in Resources */,
+				4134FB271C181B440096C87E /* tv.png in Resources */,
+				4134FB1C1C181B440096C87E /* hoitaja.png in Resources */,
+				4134FAED1C1817CA0096C87E /* Assets.xcassets in Resources */,
+				4134FB051C181B310096C87E /* aanipienemmalle1.png in Resources */,
+				4134FB0D1C181B310096C87E /* sanky_saleet_ylos1.png in Resources */,
+				4134FB221C181B440096C87E /* ovi1_1.png in Resources */,
+				4134FB211C181B440096C87E /* lamppu5_1.png in Resources */,
+				4134FB071C181B310096C87E /* radio_2_1.png in Resources */,
+				4134FB081C181B310096C87E /* radio_cd_1.png in Resources */,
+				416C901A1C20135500290E66 /* sound53.png in Resources */,
+				4134FB261C181B440096C87E /* sydan.png in Resources */,
+				4134FB091C181B310096C87E /* radio_play_1.png in Resources */,
+				4134FB1E1C181B440096C87E /* koulu1.png in Resources */,
+				416C90181C2012BF00290E66 /* power.png in Resources */,
+				4134FB231C181B440096C87E /* radio.png in Resources */,
+				4134FB1D1C181B440096C87E /* jumissa.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4134FAD91C1817CA0096C87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4134FB3A1C181C440096C87E /* AlertController.m in Sources */,
+				4134FB2E1C181B8C0096C87E /* SetupController.m in Sources */,
+				4134FAFB1C1819270096C87E /* HomeScreenController.m in Sources */,
+				4134FAE21C1817CA0096C87E /* main.m in Sources */,
+				4134FB431C181CA10096C87E /* ControlViewController.m in Sources */,
+				4132E2911C19667300C8418D /* CellButton.m in Sources */,
+				4134FB311C181BD10096C87E /* SharedVariables.m in Sources */,
+				4134FB371C181C2D0096C87E /* AlertConfig.m in Sources */,
+				4134FB461C181D3F0096C87E /* InternetController.m in Sources */,
+				4134FB341C181C100096C87E /* AppDelegate.m in Sources */,
+				4134FB3F1C181C7B0096C87E /* ControlButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4134FAEE1C1817CA0096C87E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4134FAEF1C1817CA0096C87E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4134FAF21C1817CA0096C87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4134FAF31C1817CA0096C87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4134FAF51C1817CA0096C87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TervaVayla/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ymparistonhallinta.TervaVayla;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4134FAF61C1817CA0096C87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TervaVayla/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ymparistonhallinta.TervaVayla;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4134FAD81C1817CA0096C87E /* Build configuration list for PBXProject "TervaVayla" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4134FAF21C1817CA0096C87E /* Debug */,
+				4134FAF31C1817CA0096C87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4134FAF41C1817CA0096C87E /* Build configuration list for PBXNativeTarget "TervaVayla" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4134FAF51C1817CA0096C87E /* Debug */,
+				4134FAF61C1817CA0096C87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4134FAD51C1817CA0096C87E /* Project object */;
+}
